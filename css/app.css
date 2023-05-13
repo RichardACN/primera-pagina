@@ -1,0 +1,189 @@
+/*
+* colores
+*/
+/*
+* marca 
+*/
+/*
+* Use variables
+*/
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to top, rgb(209, 224, 215), white);
+  font-family: "Lato", sans-serif;
+}
+
+.br-container {
+  width: 90vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.br-site-header {
+  padding: 2rem 0;
+  background-color: rgb(107, 165, 57);
+  margin-bottom: 2rem;
+  position: sticky;
+  top: 0;
+}
+.br-site-header .br-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.br-site-header .br-container .br-logo {
+  grid-column: 1/2;
+}
+.br-site-header .br-container .br-main-menu {
+  grid-column: 3/4;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.br-site-header .br-container .br-main-menu a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  transition: 0.3s all ease-in-out;
+}
+.br-site-header .br-container .br-main-menu a:hover {
+  color: rgba(64, 64, 64, 0.8);
+}
+
+.br-site-footer {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 2rem 0;
+  color: rgb(255, 255, 255);
+  background-color: rgb(107, 165, 57);
+}
+.br-site-footer .br-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.br-site-footer .br-container .br-nos-footer {
+  grid-column: 1/2;
+}
+.br-site-footer .br-container .br-nos-footer h2 {
+  text-align: center;
+}
+.br-site-footer .br-container .br-submenu {
+  display: grid;
+  grid-column: 2/3;
+}
+.br-site-footer .br-container .br-submenu h2 {
+  text-align: center;
+}
+.br-site-footer .br-container .br-submenu a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-bottom: 5px;
+  display: inline-block;
+  height: 1rem;
+  width: 90px;
+  border-bottom: 1px solid rgb(107, 165, 57);
+  justify-self: center;
+  transition: 0.3s all ease;
+}
+.br-site-footer .br-container .br-submenu a:hover {
+  color: rgba(64, 64, 64, 0.8);
+}
+.br-site-footer .br-container .br-ventas-footer {
+  grid-column: 3/5;
+}
+.br-site-footer .br-container .br-ventas-footer h2 {
+  text-align: center;
+}
+
+.br-ventas-footer-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.br-ventas-footer-container .br-anuncio-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.br-ventas-footer-container .br-anuncio-footer img {
+  max-width: 120px;
+  border-radius: 50%;
+}
+.br-ventas-footer-container .br-anuncio-footer p {
+  display: inline;
+}
+.br-ventas-footer-container .br-anuncio-footer p a {
+  text-decoration: none;
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  transition: 0.3s all ease;
+}
+.br-ventas-footer-container .br-anuncio-footer p a:hover {
+  color: rgba(64, 64, 64, 0.8);
+}
+
+/*
+* variables
+*/
+.br-principal {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.br-container-text h1 {
+  text-align: center;
+  color: rgba(64, 64, 64, 0.8);
+}
+.br-container-text p {
+  padding: 1rem;
+  line-height: 1.3rem;
+  color: rgba(64, 64, 64, 0.8);
+}
+
+.br-container-ventas {
+  margin-top: 1rem;
+}
+.br-container-ventas h2 {
+  color: rgba(64, 64, 64, 0.8);
+}
+.br-container-ventas h2:first-letter {
+  font-size: 2rem;
+}
+.br-container-ventas .br-ventas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.br-anuncio-destacado {
+  grid-column: 1/3;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(209, 224, 215);
+}
+.br-anuncio-destacado img {
+  width: 100%;
+}
+
+.br-anuncio-description h3 {
+  color: rgba(64, 64, 64, 0.8);
+}
+.br-anuncio-description p {
+  color: rgba(64, 64, 64, 0.8);
+}
+
+.br-anuncio {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(209, 224, 215);
+  padding: 1rem;
+}
+.br-anuncio img {
+  width: 100%;
+}
+
+/*
+* Importar 
+*//*# sourceMappingURL=app.css.map */
